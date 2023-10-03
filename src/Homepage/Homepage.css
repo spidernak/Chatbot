@@ -1,0 +1,124 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+.Home::-webkit-scrollbar{
+    display: none;
+}
+.homepage{
+    width: full;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 30px;
+}
+.homepage .rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 700px;
+    margin-right: 40px;
+}
+.homepage .rightside .free{
+    width: 350px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepage .rightside .free:hover{
+   transform: scale(1.01);
+}
+.homepage .rightside .pay{
+    width: 350px;
+    height: 500px;
+    margin-left: 10%;
+    background-color: grey;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.homepage .rightside .pay:hover{
+    transform: scale(1.01);
+ }
+.leftside{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    margin-right: 20px;  
+}
+.more {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+.more .box{
+    width: 300px;
+    height: 250px;
+    background-color: grey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.more .box .icon{
+    font-size: 40px;
+ 
+}
+
+
+.buttom{
+    width: full;
+    height: 300px;
+    background-color: #222222;
+    color:azure;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.buttom .Describtion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.buttom .Describtion h1{
+    font-size:50px;
+    font-weight: bolder;
+}
+.buttom .Describtion h2{
+    width:400px;
+    font-size: 20px;
+} 
+.buttom .Contact{
+    margin-right:30px ;
+    display: flex;
+    flex-direction: column;
+}
+.buttom .Contact h1{
+    font-size: 50px;
+}
+.buttom .Contact .icon{
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    cursor: pointer;
+}
+ 

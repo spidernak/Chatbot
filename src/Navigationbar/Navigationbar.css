@@ -1,0 +1,63 @@
+.Navigation_bar{
+    width: full;
+    height: 10vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 3px;
+}
+.Navigation_bar .logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.MenuList{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+
+}
+.MenuList span{
+    font-size:35px ;
+}
+.Seacrchbar .Input{
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+    padding-left: 20px;
+    font-size: medium;
+}
+.Seacrchbar .searchicon{
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-40px ,12px);
+}
+.Loging-signup{
+    display: flex;
+    width: 20%;
+    margin-left: 120px;
+
+}
+.Loging-signup .btn{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-left: 20px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font: bolder;
+    cursor: pointer;
+}
+.Loging-signup .btn:hover{
+    transform: scale(1.1);
+}
