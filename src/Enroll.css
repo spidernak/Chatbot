@@ -17,9 +17,8 @@
     border: none;
     background: none;
     font-size: 35px;
-    position: absolute;
-    transform: translate(-260px, -350px);
-    cursor: pointer;
+    margin-top: -650px;
+    margin-left: -1100px;
 }
 .enrollpage .rightside{
     width: 50%;
@@ -51,16 +50,37 @@
     border-radius: 10px;
     margin: 25px;
     font-size: large;
-    padding-left: 12px;
+    padding-left: 15px;
+}
+.enrollpage .rightside .input-blog label{
+    font-size: 30px;
+    position: absolute;
+    transform: translate(0px , -260px)
+}
+.enrollpage .rightside .input-blog a{
+    color: blue;
+    position: absolute;
+    transform: translate(-170px, 50px);
+    cursor: pointer;
 }
 .enrollpage .rightside .input-blog .submit{
-    width: 200px;
-    height: 40px;
+    padding: 25px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.enrollpage .rightside .input-blog .submit div{
+    width: 160px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: grey;
     border-radius: 10px;
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: lighter;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -69,4 +89,21 @@
 }
 .enrollpage .rightside .input-blog .submit:hover{
     transform: scale(1.02);
+}
+.enrollpage .rightside .input-blog .platform{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:20px
+    
+}
+.enrollpage .rightside .input-blog .platform img{
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.gray{
+    background:gray;
 }

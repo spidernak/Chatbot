@@ -18,11 +18,7 @@ function Homepage() {
         </div>
         <div className='pay'>
         
-          
-          <FontAwesomeIcon icon={faHippo}/>
-           
         </div>
-        
       </div>
        </div>
       <div className='more'>
@@ -40,6 +36,7 @@ function Homepage() {
             <h1>Chat</h1>
           </div>
         </div>
+        
       <div className='buttom'>
         <div className='Describtion'>
           <h1>CHATBOT AI</h1>

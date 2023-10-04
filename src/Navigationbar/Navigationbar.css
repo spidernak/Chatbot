@@ -11,20 +11,11 @@
 .Navigation_bar .logo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:40px;
-    margin-left: 10px;
+    width: 20%;
     font-weight: bold;
 }
-.MenuList{
-    display: flex;
-    justify-content: space-evenly;
-    width: 30%;
-
-}
-.MenuList span{
-    font-size:35px ;
-}
 .Seacrchbar .Input{
-    width: 500px;
+    width: 300px;
     height: 45px;
     border-radius: 10px;
     outline: none;
@@ -42,9 +33,8 @@
 }
 .Loging-signup{
     display: flex;
+    justify-content: center;
     width: 20%;
-    margin-left: 120px;
-
 }
 .Loging-signup .btn{
     width: 100px;

@@ -15,11 +15,8 @@ function Navbar() {
       <div className='logo'>
         Chatbot AI
       </div>
-      <div className='MenuList'>
         <span>Home</span>
         <span>About</span>
-        
-      </div>
       <div className='Seacrchbar'>
         <input className='Input' type='email ' placeholder='Search'>
         </input>
@@ -28,7 +25,7 @@ function Navbar() {
       </div>
       <div className='Loging-signup'>
         <button className='btn'onClick={() => {setOpenEnrollPage(true);}}>Sign Up</button>
-        <button className='btn'>Login</button>
+        <button className='btn'onClick={() => {setOpenEnrollPage(true);}}>Login</button>
         
       </div>
        

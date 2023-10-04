@@ -1,7 +1,9 @@
 .Home{
+    width: 100%;
+    height: full;
     display: flex;
     flex-direction: column;
-    overflow:hidden;
+    overflow: hidden;
     overflow-y: scroll;
 }
 .Home::-webkit-scrollbar{
@@ -42,6 +44,7 @@
     background-color: grey;
     border-radius: 25px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -64,7 +67,6 @@
     margin-top: 30px;
     justify-content: space-evenly;
     margin-bottom: 20px;
-
 }
 .more .box{
     width: 300px;
@@ -78,10 +80,7 @@
 }
 .more .box .icon{
     font-size: 40px;
- 
 }
-
-
 .buttom{
     width: full;
     height: 300px;
@@ -90,8 +89,6 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-
 }
 .buttom .Describtion{
     display: flex;
