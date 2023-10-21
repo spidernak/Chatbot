@@ -43,6 +43,7 @@ function Enroll({backtohomepage}) {
                     </div>}
             </div>
         </div>
+        
     </div>
   )
 }
